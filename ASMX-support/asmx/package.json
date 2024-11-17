@@ -1,0 +1,29 @@
+{
+  "name": "asmx",
+  "displayName": "ASMX",
+  "description": "ASMX",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "asmx",
+      "aliases": ["ASMX", "asmx"],
+      "extensions": [".asmx"],
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "light": "images/format_icon_real.png",
+        "dark": "images/format_icon_real.png"
+      }
+    }],
+    "grammars": [{
+      "language": "asmx",
+      "scopeName": "source.asmx",
+      "path": "./syntaxes/asmx.tmLanguage.json"
+    }]
+  }
+}

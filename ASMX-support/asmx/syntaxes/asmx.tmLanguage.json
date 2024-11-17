@@ -1,0 +1,58 @@
+{
+  "name": "ASMX",
+  "fileTypes": ["asmx"],
+  "scopeName": "source.asmx",
+  "patterns": [
+      {
+        "name": "comment.line.asmx",
+        "match": "--[^\n]*",
+        "scope": "comment.line.asmx"
+      },
+      {
+        "name": "string.quoted.double.asmx",
+        "match": "\"[^\"]*\"",
+        "scope": "string.quoted.double.asmx"
+      },
+      
+      {
+        "name": "string.quoted.single.asmx",
+        "match": "'[^']*'",
+        "scope": "string.quoted.single.asmx"
+      },
+      {
+        "name": "storage.type.datatype.asmx",
+        "match": "\\b(String|Int|Bool|Double|Char|Null|NotNull|List|Array|Function|Global|Local)\\b",
+        "scope": "storage.type.datatype.asmx"
+      },
+      {
+        "name": "constant.numeric.asmx",
+        "match": "\\b[+-]?\\d+(\\.\\d+)?\\b",
+        "scope": "constant.numeric.asmx"
+      },
+      {
+        "name": "constant.boolean.asmx",
+        "match": "\\b(true|false)\\b",
+        "scope": "constant.boolean.asmx"
+      },
+      {
+        "name": "keyword.operator.assignment.asmx",
+        "match": "=",
+        "scope": "keyword.operator.assignment.asmx"
+      },
+      {
+        "name": "condition.operators.asmx",
+        "match": "(\\bnot\\b|&&|\\|\\|)",
+        "scope": "condition.operators.asmx"
+      },
+      {
+        "name": "comparison.operators.asmx",
+        "match": "(>|<|==|!=|<=|>=)",
+        "scope": "comparison.operators.asmx"
+      },
+      {
+        "name": "comparison.control.flow.asmx",
+        "match": "\\b(if|then|return|else|switch|case|while|for|do|break|continue|throw|try|fetch|finally|_)\\b",
+        "scope": "comparison.control.flow.asmx"
+      }
+  ]
+}

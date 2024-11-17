@@ -1,0 +1,21 @@
+{
+  "name": "asmx-support",
+  "displayName": "ASMX Support",
+  "description": "Support for ASMX colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ASMXS",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ASMXS-color-theme.json"
+      }
+    ]
+  }
+}

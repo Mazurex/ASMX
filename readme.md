@@ -1,8 +1,8 @@
-# ASMX Language Documentation
+# WaffleScript Language Documentation
 
 ## Overview
 
-**ASMX** is a custom coding language made for fun, right now the interpreter is not available for public viewing, however you are able to see the syntax and documentation as is.
+**WaffleScript** (.wfs) is a custom coding language made for fun, right now the interpreter is not available for public viewing, however you are able to see the syntax and documentation as is.
 
 ## Where to Find Documentation
 
